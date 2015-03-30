@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/net/internal/iana"
+	"github.com/zofuthan/net/internal/iana"
 )
 
 func marshalDst(b []byte, cm *ControlMessage) []byte {

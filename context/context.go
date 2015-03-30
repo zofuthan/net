@@ -34,7 +34,7 @@
 //
 // See http://blog.golang.org/context for example code for a server that uses
 // Contexts.
-package context // import "golang.org/x/net/context"
+package context // import "github.com/zofuthan/net/context"
 
 import (
 	"errors"
@@ -111,7 +111,7 @@ type Context interface {
 	// 	// Package user defines a User type that's stored in Contexts.
 	// 	package user
 	//
-	// 	import "golang.org/x/net/context"
+	// 	import "github.com/zofuthan/net/context"
 	//
 	// 	// User is the type of value stored in the Contexts.
 	// 	type User struct {...}

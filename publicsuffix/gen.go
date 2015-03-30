@@ -31,7 +31,7 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/net/idna"
+	"github.com/zofuthan/net/idna"
 )
 
 const (

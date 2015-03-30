@@ -10,7 +10,7 @@ import (
 	"net"
 	"syscall"
 
-	"golang.org/x/net/internal/iana"
+	"github.com/zofuthan/net/internal/iana"
 )
 
 type sysSockoptLen int32

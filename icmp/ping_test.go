@@ -11,11 +11,11 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/net/icmp"
-	"golang.org/x/net/internal/iana"
-	"golang.org/x/net/internal/nettest"
-	"golang.org/x/net/ipv4"
-	"golang.org/x/net/ipv6"
+	"github.com/zofuthan/net/icmp"
+	"github.com/zofuthan/net/internal/iana"
+	"github.com/zofuthan/net/internal/nettest"
+	"github.com/zofuthan/net/ipv4"
+	"github.com/zofuthan/net/ipv6"
 )
 
 func googleAddr(c *icmp.PacketConn, protocol int) (net.Addr, error) {

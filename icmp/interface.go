@@ -8,7 +8,7 @@ import (
 	"net"
 	"strings"
 
-	"golang.org/x/net/internal/iana"
+	"github.com/zofuthan/net/internal/iana"
 )
 
 const (

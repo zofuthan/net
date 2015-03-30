@@ -9,9 +9,9 @@ import (
 	"net"
 	"os"
 
-	"golang.org/x/net/icmp"
-	"golang.org/x/net/internal/iana"
-	"golang.org/x/net/ipv6"
+	"github.com/zofuthan/net/icmp"
+	"github.com/zofuthan/net/internal/iana"
+	"github.com/zofuthan/net/ipv6"
 )
 
 func ExamplePacketConn_nonPrivilegedPing() {
